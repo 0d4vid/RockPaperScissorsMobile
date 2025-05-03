@@ -21,12 +21,12 @@ const GameScreen: React.FC = () => {
         Animated.sequence([
             Animated.timing(scaleAnim, {
                 toValue: 1.2,
-                duration: 200,
+                duration: 250,
                 useNativeDriver: true,
             }),
             Animated.timing(scaleAnim,{
                 toValue: 1,
-                duration: 200,
+                duration: 250,
                 useNativeDriver: true,
             }),
         ]).start();
